@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Compulsory","l":"Computer"},{"p":"Compulsory","l":"Identifiable"},{"p":"Compulsory","l":"Main"},{"p":"Compulsory","l":"Network"},{"p":"Compulsory","l":"Node"},{"p":"Compulsory","l":"Router"},{"p":"Compulsory","l":"Storage"},{"p":"Compulsory","l":"Switch"}];updateSearchResults();

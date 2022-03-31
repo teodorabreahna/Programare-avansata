@@ -106,6 +106,7 @@ public class Main {
             System.out.println(s.getName() + " " + s.getLengthInKm());
         }
         */
+        System.out.println("-----Optional-----");
         City c = new City();
         for (Street s : streetList) {
             c.addIntersection(s);
@@ -113,7 +114,7 @@ public class Main {
         System.out.println("Strazile mai lungi de 1km care se intalnesc cu cel putin alte 2 strazi intr-o intersectie sunt:");
         c.query();
 
-        System.out.println("-----Optional-----");
+
         DisjointSet cameras = new DisjointSet();
         cameras.makeSet(listInter);
         cameras.printTree(listInter,streetList);

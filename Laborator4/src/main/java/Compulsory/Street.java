@@ -71,4 +71,5 @@ public class Street implements Comparable {
             throw new ClassCastException("Incomparable obejects!");
         return (this.lengthInKm - ((Street) o).lengthInKm);
     }
+
 }

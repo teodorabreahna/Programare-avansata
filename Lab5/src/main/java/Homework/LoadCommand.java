@@ -20,7 +20,7 @@ public class LoadCommand extends Command{
         parseArguments(arguments);
         if (argumentList.get(0).equals("load") && argumentList.size() == 2) {
             ObjectMapper mapper = new ObjectMapper();
-            Catalog catalog = mapper.readValue(Paths.get(argumentList.get(1)).toFile(), Catalog.class);
+            catalog = mapper.readValue(Paths.get(argumentList.get(1)).toFile(), Catalog.class);
         }
         else {
             throw new CustomException("Invalid load call! Try using this syntax: load [path]");

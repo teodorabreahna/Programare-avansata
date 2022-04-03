@@ -1,5 +1,7 @@
 import javax.swing.*;
 
+import java.awt.*;
+
 import static java.awt.BorderLayout.CENTER;
 
 public class MainFrame extends JFrame {
@@ -9,6 +11,7 @@ public class MainFrame extends JFrame {
 
     public MainFrame() {
         super("My Game");
+        setSize(200,100);
         init();
     }
 
@@ -20,6 +23,10 @@ public class MainFrame extends JFrame {
         canvas = new DrawingPanel(this);
         //...TODO
 
+        add(configPanel, BorderLayout.NORTH);
+        add(canvas, BorderLayout.CENTER);
+        add(controlPanel, BorderLayout.SOUTH);
+
         //arrange the components in the container (frame)
         //JFrame uses a BorderLayout by default
         add(canvas, CENTER); //this is BorderLayout.CENTER
@@ -29,4 +36,7 @@ public class MainFrame extends JFrame {
         pack();
     }
 
+    public ConfigPanel getConfigPanel() {
+        return configPanel;
+    }
 }

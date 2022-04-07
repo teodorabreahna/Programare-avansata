@@ -1,8 +1,11 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 
-public class ConfigPanel extends JPanel {
+/**
+ * Clasa ce contine spinnerele si butonul pentru crearea jocului (nr de linii si coloane)
+ */
 
+public class ConfigPanel extends JPanel {
     final MainFrame frame;
     JLabel label;
     JSpinner spinner1, spinner2;
@@ -25,23 +28,20 @@ public class ConfigPanel extends JPanel {
     }
 
     int rows, cols;
-    //...
+
     public ConfigPanel(MainFrame frame) {
         this.frame = frame;
         init();
     }
-
     private void init() {
         //create the label and the spinner
         label = new JLabel("Grid size:");
         spinner1 = new JSpinner(new SpinnerNumberModel(10, 2, 100, 1));
         spinner2 = new JSpinner(new SpinnerNumberModel(10, 2, 100, 1));
 
-
         create = new JButton("Create");
         create.addActionListener(this::createGame);
-        //create spinners for rows and cols, and the button
-        //...TODO
+
         add(label); //JPanel uses FlowLayout by default
         add(spinner1);
         add(spinner2);

@@ -58,9 +58,7 @@ public class Player implements Runnable {
                     permute(str, l+1, r);
                     str = swap(str,l,i);
                 }
-
             }
-
         }
 
 
@@ -72,7 +70,6 @@ public class Player implements Runnable {
             game.setRunning(false);
             return false;
         }
-
         /*creates a word with all the given letters*/
         StringBuilder wordForming = new StringBuilder();
         for (int i = 0; i < extracted.size(); i++) {
@@ -89,9 +86,7 @@ public class Player implements Runnable {
             System.out.println("Am gasit cuvant" + word);
             this.addScore(extracted);
         }
-
         game.getBoard().addWord(this, word, turn);
-
         return true;
     }
 

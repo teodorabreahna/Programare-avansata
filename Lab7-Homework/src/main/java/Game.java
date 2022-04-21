@@ -75,7 +75,7 @@ public class Game {
 
     public static void main(String args[]) {
         Dictionar dict = new Dictionar();
-        System.out.println(dict.isWord("A"));
+        System.out.println(dict.isWord("hfh"));
         System.out.println(dict.isWord("math"));
         Game game = new Game();
         game.addPlayer(new Player("Player 1"));

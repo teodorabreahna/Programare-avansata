@@ -5,48 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5347baf-9ad9-4b0a-ac39-16a06ab96d83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/properties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dictionar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Timekeeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/adj.exc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/adv.exc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/cntlist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/cntlist.rev" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/data.adj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/data.adv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/data.noun" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/data.verb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/frames.vrb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/index.adj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/index.adv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/index.noun" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/index.sense" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/index.verb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/log.grind.2.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/noun.exc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/sentidx.vrb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/sents.vrb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/verb.Framestext" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dict/verb.exc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Bag.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Board.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Dictionar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Game.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Player.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Tile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Laborator7-Compulsory/.idea/wn.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Laborator7-Compulsory/src/Bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Laborator7-Compulsory/src/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laborator8/database_script.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laborator8/src/main/java/MyDatabaseConn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../programare_avansata/PROIECTE-JAVA-[PA]/Laborator-PA/Lab7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -101,7 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1650311984014</updated>
       <workItem from="1650311985926" duration="5904000" />
-      <workItem from="1650524828234" duration="21022000" />
+      <workItem from="1650524828234" duration="22488000" />
+      <workItem from="1650556292612" duration="506000" />
     </task>
     <servers />
   </component>

@@ -22,7 +22,6 @@ public class Board {
     }
 
     public synchronized void addWord(Player player, String word, int turn) {
-
         while(this.turn != turn){
             try{
                 wait();
@@ -31,7 +30,6 @@ public class Board {
                 throw new RuntimeException();
             }
         }
-
         words.add(word);
         //System.out.println(player.getName() + ": " + word);
         this.turn = (this.turn + 1) % playerSize;

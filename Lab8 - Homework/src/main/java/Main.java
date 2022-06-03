@@ -33,7 +33,6 @@ public class Main {
             frame.setVisible(true);
 
 
-
         }
         catch (SQLException e){
             e.printStackTrace();

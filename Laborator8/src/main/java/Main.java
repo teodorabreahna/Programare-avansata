@@ -22,7 +22,7 @@ public class Main {
             System.out.println(countries.findByContinent("Europe"));
 
             var cities = new CityDAO();
-            cities.create("Romania","Onesti",0, (float) 12.653, (float) 21.653);
+            cities.create(countries.findByName("Romania"),"Onesti",0, (float) 12.653, (float) 21.653);
 
 
         }

@@ -116,7 +116,6 @@ public class Bonus {
 
         dfs_cycle(0, -1, color, ciclu,parent);
         printCycles(n,ciclu);
-
     }
 
 }

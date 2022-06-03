@@ -2,11 +2,11 @@ import java.sql.*;
 
 public class CityDAO {
 
-    public void create(String country, String name, int capital, float latitude, float longitude) throws SQLException {
+    public void create(int country, String name, int capital, float latitude, float longitude) throws SQLException {
         Connection con = Database.getConnection();
         try (PreparedStatement pstmt = con.prepareStatement(
                 "insert into cities (country, name, capital, latitude, longitude) values (?, ?, ?, ?, ?)")) {
-            pstmt.setString(1, country);
+            pstmt.setInt(1, country);
             pstmt.setString(2, name);
             pstmt.setInt(3, capital);
             pstmt.setFloat(4, latitude);
